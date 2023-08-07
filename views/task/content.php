@@ -8,12 +8,12 @@
 			<form action="<?php echo ROOT_HTML; ?>task/<?php echo @$parameters['page']; ?>" method="POST">
 				<div>
 					<select name="sort" id="js-sort" class="select-sort">
-						<option class="sel" value="name_up" <?php if(@$_POST['sort'] == 'name_up') echo 'selected'; ?>>Sort by ascending name</option>
-						<option value="name_down" <?php if(@$_POST['sort'] == 'name_down') echo 'selected'; ?>>Sort by descending name</option>
-						<option value="email_up" <?php if(@$_POST['sort'] == 'email_up') echo 'selected'; ?>>Sort by ascending email</option>
-						<option value="email_down" <?php if(@$_POST['sort'] == 'email_down') echo 'selected'; ?>>Sort by descending email</option>
-						<option value="status_up" <?php if(@$_POST['sort'] == 'status_up') echo 'selected'; ?>>Sort by ascending status</option>
-						<option value="status_down" <?php if(@$_POST['sort'] == 'status_down') echo 'selected'; ?>>Sort by descending status</option>
+						<option class="sel" value="name_up" <?php if(@$_POST['sort'] == 'name_up') echo 'selected'; ?>>ascending name</option>
+						<option value="name_down" <?php if(@$_POST['sort'] == 'name_down') echo 'selected'; ?>>descending name</option>
+						<option value="email_up" <?php if(@$_POST['sort'] == 'email_up') echo 'selected'; ?>>ascending email</option>
+						<option value="email_down" <?php if(@$_POST['sort'] == 'email_down') echo 'selected'; ?>>descending email</option>
+						<option value="status_up" <?php if(@$_POST['sort'] == 'status_up') echo 'selected'; ?>>ascending status</option>
+						<option value="status_down" <?php if(@$_POST['sort'] == 'status_down') echo 'selected'; ?>>descending status</option>
 					</select>
 					<input type="submit" name="execute" value="Sorting" class="select-sort">
 				</div>

@@ -7,7 +7,7 @@ define('ROOT', dirname(__FILE__));
 // (функция dirname, псевдоконстанта __FILE__);
 // функция dirname — возвращает имя родительского каталога из указанного пути
 //define('ROOT_APP', dirname(__FILE__, 2).'/app/'); //создадим константу для папки app
-define('ROOT_APP', $_SERVER['DOCUMENT_ROOT'].'/../app/'); //константа для папки app
+define('ROOT_APP', dirname(__FILE__, 2).'/app/'); //константа для папки app
 define('ROOT_HTML', str_ireplace('index.php', '', $_SERVER['SCRIPT_NAME'])); //константа для корня HTML
 
 if(file_exists(ROOT_APP.'config\autorequire.php')) { //проверяет существование указанного файла

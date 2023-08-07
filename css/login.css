@@ -1,0 +1,115 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  background:#3a4a58;
+  margin: 0 auto 0 auto;  
+  width:100%; 
+  text-align:center;
+  margin: 20px 0px 20px 0px;   
+}
+
+p{
+  font-size:12px;
+  text-decoration: none;
+  color:#ffffff;
+}
+
+h1{
+  font-size:1.5em;
+  color:#525252;
+}
+h2 {
+	color:#f00;
+}
+
+.box{
+  background:white;
+  width:350px;
+  height: 250px;
+  border-radius:6px;
+  margin: 0 auto 0 auto;
+  padding: 20px;
+  border: #567D47 4px solid; 
+}
+
+.email{
+  background:#ecf0f1;
+  border: #ccc 1px solid;
+  border-bottom: #ccc 2px solid;
+  padding: 8px;
+  width:250px;
+  color:#AAAAAA;
+  margin-top:10px;
+  font-size:1em;
+  border-radius:4px;
+}
+
+.password{
+  border-radius:4px;
+  background:#ecf0f1;
+  border: #ccc 1px solid;
+  padding: 8px;
+  width:250px;
+  font-size:1em;
+}
+
+.input-enter {
+	background-color: #B1C5AE;
+	display: block;
+	padding: 8px;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 10px;
+	margin-left: 0;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 2px;
+	width: 95%;
+}
+
+.btn{
+	float: left;
+	background-color: #567D47;
+	color: #fff;
+	font-size: 20px;
+	padding: 10px;
+	border: none;
+	border-radius: 3px;
+	margin-top: 30px;
+}
+
+.btn:hover{
+  background-color: #996633;; 
+}
+.button-home {
+	float: right;
+	background-color: #567D47;
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	padding: 10px;
+	border: none;
+	border-radius: 3px;
+	margin-top: 30px;
+}
+.button-home:hover {
+	background-color: #e5e8ed;
+	color: black;
+}
+
+#btn2{
+  float:left;
+  background:#3F7BC2;
+  width:120px;  padding-top:5px;
+  padding-bottom:5px;
+  color:white;
+  border-radius:4px;  
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:16px;
+  font-weight:800;
+  font-size:0.8em;
+}
+
+#btn2:hover{ 
+background:#2CC06B; 
+}
